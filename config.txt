@@ -1,0 +1,13 @@
+
+downloadsFolder:  "/mintsData/UHData"
+
+Dates:
+  startDate: "yyyy-mm-dd"
+  endDate: "yyyy-mm-dd"
+      
+UltraHuman:
+  email: "mints@gmail.com"
+  api: "yourKeyHere"
+
+
+    
