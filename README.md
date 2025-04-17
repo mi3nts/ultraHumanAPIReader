@@ -9,12 +9,11 @@ Software to download and manage data from the Ultrahuman API.
 
 1. Clone the repository:
    ```bash
-   git clone git@github.com:mi3nts/ultraHumanAPIReader.git
+   git clone https://github.com/your-username/ultraHumanAPIReader.git
    ```
 
 2. Copy the config file:
    ```bash
-   cd ultraHumanAPIReader
    cp config.txt config.yaml
    ```
 
