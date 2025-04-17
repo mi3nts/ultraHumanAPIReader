@@ -1,10 +1,30 @@
-# ultraHumanAPIReader
-Contains software to download and manage data from Ultrahuman API
 
-# Instrctions
-- Clone the repo
-- Copy config.txt to config.yaml
-- Locate the folder you want the data saved in and allocate the folder to datafolder on config.yaml
-- Similarly change the date range email and key
-- and the run the code
-- ```python3 dataReader.py```
+# **ultraHumanAPIReader**
+
+Software to download and manage data from the Ultrahuman API.
+
+---
+
+## **Instructions**
+
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:mi3nts/ultraHumanAPIReader.git
+   ```
+
+2. Copy the config file:
+   ```bash
+   cd ultraHumanAPIReader
+   cp config.txt config.yaml
+   ```
+
+3. Open `config.yaml` and update the following fields:
+   - `datafolder`: Set the folder path where you want the data saved
+   - `start_date` and `end_date`: Set your desired date range
+   - `email`: Your Ultrahuman account email
+   - `key`: Your Ultrahuman API key
+
+4. Run the script:
+   ```bash
+   python3 dataReader.py
+   ```
